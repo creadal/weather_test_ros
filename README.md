@@ -13,8 +13,13 @@ $ catkin_make
 $ cd ~/catkin_ws/src
 $ catkin_create_pkg weather_test std_msgs rospy roscpp
 ```
-Создаем папку `/scripts` в `~/catkin_ws/src/weather_test` и добавляем туда оба скрипта наших узлов.
-Затем из `~/catkin_ws` вызываем команду `$ catkin_make` чтобы собрать проект.
+Создаем папку `/scripts` в `~/catkin_ws/src/weather_test` и добавляем туда оба скрипта наших узлов. 
+Затем их надо сделать исполняемыми командами:
+```
+$ chmod +x listener.py
+$ chmod +x talker.py
+```
+Из `~/catkin_ws` вызываем команду `$ catkin_make` чтобы собрать проект.
 
 ## Запуск
 Сперва необходимо запустить **roscore** одноименной командой.
