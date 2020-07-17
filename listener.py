@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import rospy
 import json
 from std_msgs.msg import String
