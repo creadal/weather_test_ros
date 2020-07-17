@@ -14,7 +14,7 @@ $ cd ~/catkin_ws/src
 $ catkin_create_pkg weather_test std_msgs rospy roscpp
 ```
 Создаем папку `/scripts` в `~/catkin_ws/src/weather_test` и добавляем туда оба скрипта наших узлов. 
-Затем их надо сделать исполняемыми командами:
+Затем их надо сделать исполняемыми файлами:
 ```
 $ chmod +x listener.py
 $ chmod +x talker.py
