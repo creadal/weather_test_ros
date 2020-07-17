@@ -30,7 +30,7 @@ $ source catkin_ws/devel/setup.bash
 ```
 Можем запустить узел паблишера командой 
 ```
-rosrun weather_test talker.py LAT LON
+$ rosrun weather_test talker.py LAT LON
 ``` 
 где на месте LAT и LON подставляем широту и долготу. 
 Например, чтобы отслеживать погоду в Петергофе пишем: 
